@@ -1,9 +1,15 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"AAAI":
+  url: https://aaai.org
+  color: "#009f06"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"CVPR":
+  url: https://cvpr.thecvf.com
+  color: "#b71c1c"
 
-"Vision":
-  color: "#009f36"
+"ECCV":
+  color: "#0076df"
+  url: https://eccv.ecva.net
+
+"CG":
+  color: "#f29105"
+  url: https://www.sciencedirect.com/journal/computers-and-graphics
