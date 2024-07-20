@@ -5,19 +5,19 @@
       "studyType": "Ph.D. in Computer Science",
       "startDate": "2023",
       "endDate": "now",
-      "courses": ["Advised by [Prof. Dimitris Samaras](https://www3.cs.stonybrook.edu/~samaras/)"]
+      "courses": ["Advised by Prof. Dimitris Samaras"]
     },
     {
       "institution": "University of Science, VNU-HCM",
-      "studyType": "B.S. in Information Technology (Honors)",
+      "studyType": "B.S. in Computer Science (Honors)",
       "startDate": "2018",
       "endDate": "2022",
-      "courses": ["Advised by [Prof. Minh-Triet Tran](https://scholar.google.com/citations?user=lt2ATkkAAAAJ&hl=en)"]
+      "courses": ["Advised by Prof. Minh-Triet Tran"]
     }
   ],
   "work": [
     {
-      "name": "Microsoft, Responsible and OpenAI Research (ROAR), Redmond, USA",
+      "name": "Microsoft, Responsible and OpenAI Research, Redmond, USA",
       "position": "Research Intern",
       "startDate": "Summer 2024"
     },
