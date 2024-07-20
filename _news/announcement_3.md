@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-1 paper **$\infty$-Brush** has been accepted to ECCV 2024.
+1 paper **∞-Brush** has been accepted to ECCV 2024!
