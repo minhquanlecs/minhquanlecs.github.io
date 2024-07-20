@@ -2,24 +2,24 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle:
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: portrait.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Computer Vision Lab, Department of Computer Science</p>
+    <p>New Computer Science, Engineering Dr</p>
+    <p>Stony Brook, NY, USA 11794</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am currently a first-year Ph.D. in Computer Science at [Stony Brook University, NY, USA](https://www.stonybrook.edu), advised by [Prof. Dimitris Samaras](https://www3.cs.stonybrook.edu/~samaras/).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Before joining SBU, I obtained my Bachelor's Degree in Computer Science - Honors Program at University of Science, VNU-HCM, under the supervision of [Prof. Minh-Triet Tran](https://scholar.google.com/citations?user=lt2ATkkAAAAJ&hl=en), [Prof. Tam V. Nguyen](https://vantam.github.io), and [Dr. Trung-Nghia Le](https://sites.google.com/view/ltnghia).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research interests lie in Computer Vision and Machine Learning with focus on likelihood-based generative models and vision-language models.
