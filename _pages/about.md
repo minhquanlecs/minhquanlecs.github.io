@@ -6,11 +6,10 @@ subtitle:
 
 profile:
   align: right
-  image: portrait.jpg
+  image: portrait.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Computer Vision Lab, Department of Computer Science</p>
-    <p>New Computer Science, Engineering Dr</p>
+    <p>Computer Vision Lab</p>
     <p>Stony Brook, NY, USA 11794</p>
 
 news: true # includes a list of news items
