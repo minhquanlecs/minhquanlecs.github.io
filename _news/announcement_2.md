@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-My first A* paper **MaskDiff** has been accepted to AAAI 2024.
+My first A* paper **MaskDiff** has been accepted to AAAI 2024 (Oral).
