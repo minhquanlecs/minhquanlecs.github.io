@@ -44,18 +44,21 @@
 }
 
 @article{le2023sketchanimar,
-  title={SketchANIMAR: sketch-based 3D animal fine-grained retrieval},
+  title={Sketch-based 3D Animal Fine-Grained Retrieval},
   author={Le, Trung-Nghia and Nguyen, Tam V and Le, Minh-Quan and Nguyen, Trong-Thuan and Huynh, Viet-Tham and Do, Trong-Le and Le, Khanh-Duy and Tran, Mai-Khiem and Hoang-Xuan, Nhat and Nguyen-Ho, Thang-Long and others},
   journal={Computers \& Graphics},
   volume={116},
   pages={150--161},
   year={2023},
   publisher={Elsevier},
-  abbr={CG}
+  abbr={CG},
+  preview={cg23sketch.png},
+  pdf={https://www.sciencedirect.com/science/article/abs/pii/S0097849323001644},
+  abstract={The retrieval of 3D objects has gained significant importance in recent years due to its broad range of applications in computer vision, computer graphics, virtual reality, and augmented reality. However, the retrieval of 3D objects presents significant challenges due to the intricate nature of 3D models, which can vary in shape, size, and texture, and have numerous polygons and vertices. To this end, we introduce a novel SHREC challenge track that focuses on retrieving relevant 3D animal models from a dataset using sketch queries and expedites accessing 3D models through available sketches. Furthermore, a new dataset named ANIMAR was constructed in this study, comprising a collection of 711 unique 3D animal models and 140 corresponding sketch queries. Our contest requires participants to retrieve 3D models based on complex and detailed sketches. We receive satisfactory results from eight teams and 204 runs. Although further improvement is necessary, the proposed task has the potential to incentivize additional research in the domain of 3D object retrieval, potentially yielding benefits for a wide range of applications. We also provide insights into potential areas of future research, such as improving techniques for feature extraction and matching and creating more diverse datasets to evaluate retrieval performance.}
 }
 
 @article{le2023textanimar,
-  title={TextANIMAR: text-based 3D animal fine-grained retrieval},
+  title={TextANIMAR: Text-based 3D Animal Fine-Grained Retrieval},
   author={Le, Trung-Nghia and Nguyen, Tam V and Le, Minh-Quan and Nguyen, Trong-Thuan and Huynh, Viet-Tham and Do, Trong-Le and Le, Khanh-Duy and Tran, Mai-Khiem and Hoang-Xuan, Nhat and Nguyen-Ho, Thang-Long and others},
   journal={Computers \& Graphics},
   volume={116},
@@ -63,13 +66,19 @@
   year={2023},
   publisher={Elsevier},
   abbr={CG},
+  preview={cg23text.png},
+  pdf={https://www.sciencedirect.com/science/article/abs/pii/S0097849323001553},
+  abstract={3D object retrieval is an important yet challenging task that has drawn more and more attention in recent years. While existing approaches have made strides in addressing this issue, they are often limited to restricted settings such as image and sketch queries, which are often unfriendly interactions for common users. In order to overcome these limitations, this paper presents a novel SHREC challenge track focusing on text-based fine-grained retrieval of 3D animal models. Unlike previous SHREC challenge tracks, the proposed task is considerably more challenging, requiring participants to develop innovative approaches to tackle the problem of text-based retrieval. Despite the increased difficulty, we believe this task can potentially drive useful applications in practice and facilitate more intuitive interactions with 3D objects. Five groups participated in our competition, submitting a total of 114 runs. While the results obtained in our competition are satisfactory, we note that the challenges presented by this task are far from fully solved. As such, we provide insights into potential areas for future research and improvements. We believe we can help push the boundaries of 3D object retrieval and facilitate more user-friendly interactions via vision-language technologies.}
 }
 
 @article{le2023unveiling,
-  title={Unveiling camouflage: A learnable Fourier-based augmentation for camouflaged object detection and instance segmentation},
-  author={Le, Minh-Quan and Tran, Minh-Triet and Le, Trung-Nghia and Nguyen, Tam V and Do, Thanh-Toan},
+  title={Unveiling Camouflage: A Learnable Fourier-based Augmentation for Camouflaged Object Detection and Instance Segmentation},
+  author={Le*, Minh-Quan and Tran*, Minh-Triet and Le, Trung-Nghia and Nguyen, Tam V and Do, Thanh-Toan},
   journal={arXiv preprint arXiv:2308.15660},
-  year={2023}
+  year={2023},
+  preview={camofourier.png},
+  pdf={https://arxiv.org/abs/2308.15660},
+  abstract={Camouflaged object detection (COD) and camouflaged instance segmentation (CIS) aim to recognize and segment objects that are blended into their surroundings, respectively. While several deep neural network models have been proposed to tackle those tasks, augmentation methods for COD and CIS have not been thoroughly explored. Augmentation strategies can help improve the performance of models by increasing the size and diversity of the training data and exposing the model to a wider range of variations in the data. Besides, we aim to automatically learn transformations that help to reveal the underlying structure of camouflaged objects and allow the model to learn to better identify and segment camouflaged objects. To achieve this, we propose a learnable augmentation method in the frequency domain for COD and CIS via Fourier transform approach, dubbed CamoFourier. Our method leverages a conditional generative adversarial network and cross-attention mechanism to generate a reference image and an adaptive hybrid swapping with parameters to mix the low-frequency component of the reference image and the high-frequency component of the input image. This approach aims to make camouflaged objects more visible for detection and segmentation models. Without bells and whistles, our proposed augmentation method boosts the performance of camouflaged object detectors and camouflaged instance segmenters by large margins.}
 }
 
 @inproceedings{le2023fl,
@@ -78,7 +87,10 @@
   booktitle={International Conference on Multimedia Modeling},
   pages={447--459},
   year={2023},
-  organization={Springer}
+  organization={Springer},
+  preview={flformer.png},
+  pdf={https://link.springer.com/chapter/10.1007/978-3-031-27077-2_35},
+  abstract={Flooding in urban areas is one of the serious problems and needs special attention in urban development and improving people’s living quality. Flood detection to promptly provide data for hydrometeorological forecasting systems will help make timely forecasts for life. In addition, providing information about rain and flooding in many locations in the city will help people make appropriate decisions about traffic. Therefore, in this paper, we present our FL-Former solution for detecting and classifying rain and inundation levels in urban locations, specifically in Ho Chi Minh City, based on images recorded from cameras using Vision Transformer. We also build the HCMC-URF dataset with more than 10 K images of various rainy and flooding conditions in Ho Chi Minh City to serve the community’s research. Finally, we propose the software architecture and construction of an online API system to provide timely information about rain and flooding at several locations in the city as extra input for hydrometeorological analysis and prediction systems, as well as provide information to citizens via mobile or web applications.}
 }
 
 @inproceedings{nguyen2022data,
@@ -87,11 +99,14 @@
   booktitle={2022 IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct)},
   pages={859--864},
   year={2022},
-  organization={IEEE}
+  organization={IEEE},
+  preview={ismar22.png},
+  pdf={https://ieeexplore.ieee.org/document/9974523},
+  abstract={Big cities are well-known for their traffic congestion and high density of vehicles such as cars, buses, trucks, and even a swarm of motorbikes that overwhelm city streets. Large-scale development projects have exacerbated urban conditions, making traffic congestion more severe. In this paper, we proposed a data-driven city traffic planning simulator. In particular, we make use of the city camera system for traffic analysis. It seeks to recognize the traffic vehicles and traffic flows, with reduced intervention from monitoring staff. Then, we develop a city traffic planning simulator upon the analyzed traffic data. The simulator is used to support metropolitan transportation planning. Our experimental findings address traffic planning challenges and the innovative technical solutions needed to solve them in big cities.}
 }
 
 @article{emporio2022shrec,
-  title={SHREC 2022 track on online detection of heterogeneous gestures},
+  title={SHREC 2022 Track on Online Detection of Heterogeneous Gestures},
   author={Emporio, Marco and Caputo, Ariel and Giachetti, Andrea and Cristani, Marco and Borghi, Guido and D’Eusanio, Andrea and Le, Minh-Quan and Nguyen, Hai-Dang and Tran, Minh-Triet and Ambellan, Felix and others},
   journal={Computers \& Graphics},
   volume={107},
@@ -99,29 +114,38 @@
   year={2022},
   publisher={Elsevier},
   abbr={CG},
+  preview={cg22.png},
+  pdf={https://www.sciencedirect.com/science/article/abs/pii/S0097849322001388},
+  abstract={This paper presents the outcomes of a contest organized to evaluate methods for the online recognition of heterogeneous gestures from sequences of 3D hand poses. The task is the detection of gestures belonging to a dictionary of 16 classes characterized by different pose and motion features. The dataset features continuous sequences of hand tracking data where the gestures are interleaved with non-significant motions. The data have been captured using the Hololens 2 finger tracking system in a realistic use-case of mixed reality interaction. The evaluation is based not only on the detection performances but also on the latency and the false positives, making it possible to understand the feasibility of practical interaction tools based on the algorithms proposed. The outcomes of the contest’s evaluation demonstrate the necessity of further research to reduce recognition errors, while the computational cost of the algorithms proposed is sufficiently low.}
 }
 
 @inproceedings{tran2022v,
-  title={V-first: A flexible interactive retrieval system for video at vbs 2022},
+  title={V-FIRST: A Flexible Interactive Retrieval System for Video at VBS 2022},
   author={Tran, Minh-Triet and Hoang-Xuan, Nhat and Trang-Trung, Hoang-Phuc and Le, Thanh-Cong and Tran, Mai-Khiem and Le, Minh-Quan and Le, Tu-Khiem and Ninh, Van-Tu and Gurrin, Cathal},
   booktitle={International Conference on Multimedia Modeling},
   pages={562--568},
   year={2022},
-  organization={Springer}
+  organization={Springer},
+  preview={vbs22.png},
+  pdf={https://link.springer.com/chapter/10.1007/978-3-030-98355-0_55},
+  abstract={Video retrieval systems have a wide range of applications across multiple domains, therefore the development of user-friendly and efficient systems is necessary. For VBS 2022, we develop a flexible interactive system for video retrieval, namely V-FIRST, that supports two scenarios of usage: query with text descriptions and query with visual examples. We take advantage of both visual and temporal information from videos to extract concepts related to entities, events, scenes, activities, and motion trajectories for video indexing. Our system supports queries with keywords and sentence descriptions as V-FIRST can evaluate the semantic similarities between visual and textual embedding vectors. V-FIRST also allows users to express queries with visual impressions, such as sketches and 2D spatial maps of dominant colors. We use query expansion, elastic temporal video navigation, and intellisense for hints to further boost the performance of our system.}
 }
 
 @article{le2021camouflaged,
-  title={Camouflaged instance segmentation in-the-wild: Dataset, method, and benchmark suite},
+  title={Camouflaged Instance Segmentation In-the-Wild: Dataset, Method, and Benchmark Suite},
   author={Le, Trung-Nghia and Cao, Yubo and Nguyen, Tan-Cong and Le, Minh-Quan and Nguyen, Khanh-Duy and Do, Thanh-Toan and Tran, Minh-Triet and Nguyen, Tam V},
   journal={IEEE Transactions on Image Processing},
   volume={31},
   pages={287--300},
   year={2021},
-  publisher={IEEE}
+  publisher={IEEE},
+  preview={tip21.png},
+  pdf={https://ieeexplore.ieee.org/document/9633224},
+  abstract={This paper pushes the envelope on decomposing camouflaged regions in an image into meaningful components, namely, camouflaged instances. To promote the new task of camouflaged instance segmentation of in-the-wild images, we introduce a dataset, dubbed CAMO++, that extends our preliminary CAMO dataset (camouflaged object segmentation) in terms of quantity and diversity. The new dataset substantially increases the number of images with hierarchical pixel-wise ground truths. We also provide a benchmark suite for the task of camouflaged instance segmentation. In particular, we present an extensive evaluation of state-of-the-art instance segmentation methods on our newly constructed CAMO++ dataset in various scenarios. We also present a camouflage fusion learning (CFL) framework for camouflaged instance segmentation to further improve the performance of state-of-the-art methods. The dataset, model, evaluation suite, and benchmark will be made publicly available on our project page.}
 }
 
 @article{caputo2021shrec,
-  title={SHREC 2021: Skeleton-based hand gesture recognition in the wild},
+  title={SHREC 2021: Skeleton-based Hand Gesture Recognition in the Wild},
   author={Caputo, Ariel and Giachetti, Andrea and Soso, Simone and Pintani, Deborah and D’Eusanio, Andrea and Pini, Stefano and Borghi, Guido and Simoni, Alessandro and Vezzani, Roberto and Cucchiara, Rita and others},
   journal={Computers \& Graphics},
   volume={99},
@@ -129,10 +153,13 @@
   year={2021},
   publisher={Elsevier},
   abbr={CG},
+  preview={cg21.png},
+  pdf={https://www.sciencedirect.com/science/article/abs/pii/S0097849321001382},
+  abstract={Gesture recognition is a fundamental tool to enable novel interaction paradigms in a variety of application scenarios like Mixed Reality environments, touchless public kiosks, entertainment systems, and more. Recognition of hand gestures can be nowadays performed directly from the stream of hand skeletons estimated by software provided by low-cost trackers (Ultraleap) and MR headsets (Hololens, Oculus Quest) or by video processing software modules (e.g. Google Mediapipe). Despite the recent advancements in gesture and action recognition from skeletons, it is unclear how well the current state-of-the-art techniques can perform in a real-world scenario for the recognition of a wide set of heterogeneous gestures, as many benchmarks do not test online recognition and use limited dictionaries. This motivated the proposal of the SHREC 2021: Track on Skeleton-based Hand Gesture Recognition in the Wild. For this contest, we created a novel dataset with heterogeneous gestures featuring different types and duration. These gestures have to be found inside sequences in an online recognition scenario. This paper presents the result of the contest, showing the performances of the techniques proposed by four research groups on the challenging task compared with a simple baseline method.}
 }
 
 @inproceedings{le2021interactive,
-  title={Interactive video object mask annotation},
+  title={Interactive Video Object Mask Annotation},
   author={Le, Trung-Nghia and Nguyen, Tam V and Tran, Quoc-Cuong and Nguyen, Lam and Hoang, Trung-Hieu and Le, Minh-Quan and Tran, Minh-Triet},
   booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
   volume={35},
@@ -140,10 +167,13 @@
   pages={16067--16070},
   year={2021},
   abbr={AAAI},
+  preview={aaai21.png},
+  pdf={https://ojs.aaai.org/index.php/AAAI/article/view/18014},
+  abstract={In this paper, we introduce a practical system for interactive video object mask annotation, which can support multiple back-end methods. To demonstrate the generalization of our system, we introduce a novel approach for video object annotation. Our proposed system takes scribbles at a chosen key-frame from the end-users via a user-friendly interface and produces masks of corresponding objects at the key-frame via the Control-Point-based Scribbles-to-Mask (CPSM) module. The object masks at the key-frame are then propagated to other frames and refined through the Multi-Referenced Guided Segmentation (MRGS) module. Last but not least, the user can correct wrong segmentation at some frames, and the corrected mask is continuously propagated to other frames in the video via the MRGS to produce the object masks at all video frames.}
 }
 
 @article{thompson2020shrec,
-  title={SHREC 2020: Retrieval of digital surfaces with similar geometric reliefs},
+  title={SHREC 2020: Retrieval of Digital Surfaces with Similar Geometric Reliefs},
   author={Thompson, Elia Moscoso and Biasotti, Silvia and Giachetti, Andrea and Tortorici, Claudio and Werghi, Naoufel and Obeid, Ahmad Shaker and Berretti, Stefano and Nguyen-Dinh, Hoang-Phuc and Le, Minh-Quan and Nguyen, Hai-Dang and others},
   journal={Computers \& Graphics},
   volume={91},
@@ -151,20 +181,39 @@
   year={2020},
   publisher={Elsevier},
   abbr={CG},
+  preview={cg20.png},
+  pdf={https://www.sciencedirect.com/science/article/abs/pii/S0097849320301138},
+  abstract={This paper presents the methods that have participated in the SHREC’20 contest on retrieval of surface patches with similar geometric reliefs and the analysis of their performance over the benchmark created for this challenge. The goal of the context is to verify the possibility of retrieving 3D models only based on the reliefs that are present on their surface and to compare methods that are suitable for this task. This problem is related to many real world applications, such as the classification of cultural heritage goods or the analysis of different materials. To address this challenge, it is necessary to characterize the local ”geometric pattern” information, possibly forgetting model size and bending. Seven groups participated in this contest and twenty runs were submitted for evaluation. The performances of the methods reveal that good results are achieved with a number of techniques that use different approaches.}
 }
 
 @inproceedings{tran2020multi,
-  title={Multi-referenced guided instance segmentation framework for semi-supervised video instance segmentation},
+  title={Multi-Referenced Guided Instance Segmentation Framework for Semi-supervised Video Instance Segmentation},
   author={Tran, Minh-Triet and Hoang, T and Nguyen, Tam V and Le, Trung-Nghia and Nguyen, E and Le, M and Nguyen-Dinh, H and Hoang, X and Do, Minh N},
   booktitle={CVPR Workshops},
   pages={1--4},
-  year={2020}
+  year={2020},
+  preview={cvprw20vos.png},
+  abstract={In this paper, we propose a novel Multi-Referenced Guided Instance Segmentation (MR-GIS) framework for the challenging problem of semi-supervised video instance seg-mentation. Our proposed method consists two passes of segmentation with mask guidance. First, we quickly propagate an initial mask to all frames in a sequence to create an initial segmentation result of the instance. Second, we re-propagate masks with reference to multiple extra samples. We put high confidence reliable frames in the memory pool for reference, namely Reliable Extra Samples. To enhance the consistency of instance masks across frames, we search for mask anomaly in consecutive frames and correct them. Our proposed MR-GIS achieves 76.5, 82.1, and 79.3 in terms of region similarity (J), contour accuracy (F), and global score, respectively, on DAVIS 2020 Challenge dataset, rank 4th in the challenge on semi-supervised task.},
+  pdf={https://davischallenge.org/challenge2020/papers/DAVIS-Semisupervised-Challenge-4th-Team.pdf}
 }
 
 @inproceedings{tran2020itask,
-  title={iTASK-Intelligent traffic analysis software kit},
+  title={iTASK - Intelligent Traffic Analysis Software Kit},
   author={Tran, Minh-Triet and Nguyen, Tam V and Hoang, Trung-Hieu and Le, Trung-Nghia and Nguyen, Khac-Tuan and Dinh, Dat-Thanh and Nguyen, Thanh-An and Nguyen, Hai-Dang and Hoang, Xuan-Nhat and Nguyen, Trong-Tung and others},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops},
   pages={612--613},
-  year={2020}
+  year={2020},
+  preview={cvprw20itask.png},
+  pdf={https://openaccess.thecvf.com/content_CVPRW_2020/papers/w35/Tran_iTASK_-_Intelligent_Traffic_Analysis_Software_Kit_CVPRW_2020_paper.pdf},
+  abstract={Traffic flow analysis is essential for intelligent transportation systems. In this paper, we introduce our Intelligent Traffic Analysis Software Kit (iTASK) to tackle three challenging problems: vehicle flow counting, vehicle re-identification, and abnormal event detection. For the first problem, we propose to real-time track vehicles moving along the desired direction in corresponding motion-of-interests (MOIs). For the second problem, we consider each vehicle as a document with multiple semantic words (i.e., vehicle attributes) and transform the given problem to classical document retrieval. For the last problem, we propose to forward and backward refine anomaly detection using GAN-based future prediction and backward tracking completely stalled vehicle or sudden-change direction, respectively. Experiments on the datasets of traffic flow analysis from AI City Challenge 2020 show our competitive results, namely, S1 score of 0.8297 for vehicle flow counting in Track 1, mAP score of 0.3882 for vehicle re-identification in Track 2, and S4 score of 0.9059 for anomaly detection in Track 4. All data and source code are publicly available on our project page.}
+}
+
+@article{le2021gunnel,
+  title={GUNNEL: Guided Mixup Augmentation and Multi-Model Fusion for Aquatic Animal Segmentation},
+  author={Le*, Minh-Quan and Le*, Trung-Nghia and Nguyen, Tam V and Echizen, Isao and Tran, Minh-Triet},
+  journal={arXiv preprint arXiv:2112.06193},
+  year={2021},
+  abstract={Recent years have witnessed great advances in object segmentation research. In addition to generic objects, aquatic animals have attracted research attention. Deep learning-based methods are widely used for aquatic animal segmentation and have achieved promising performance. However, there is a lack of challenging datasets for benchmarking. In this work, we build a new dataset dubbed Aquatic Animal Species. We also devise a novel GUided mixup augmeNtatioN and multi-modEl fusion for aquatic animaL segmentation (GUNNEL) that leverages the advantages of multiple segmentation models to effectively segment aquatic animals and improves the training performance by synthesizing hard samples. Extensive experiments demonstrated the superiority of our proposed framework over existing state-of-the-art instance segmentation methods. The code is available at https://github.com/lmquan2000/mask-mixup. The dataset is available at https://doi.org/10.5281/zenodo.8208877.}
+  pdf={https://arxiv.org/abs/2112.06193},
+  preview={gunnel.png}  
 }
