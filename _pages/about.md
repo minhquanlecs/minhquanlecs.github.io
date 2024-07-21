@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am currently a first-year Ph.D. in Computer Science at [Stony Brook University, NY, USA](https://www.stonybrook.edu), advised by [Prof. Dimitris Samaras](https://www3.cs.stonybrook.edu/~samaras/).
+I am currently a first-year Ph.D. student in Computer Science at [Stony Brook University, NY, USA](https://www.stonybrook.edu), advised by [Prof. Dimitris Samaras](https://scholar.google.com/citations?user=BxbKTYkAAAAJ).
 
 Before joining SBU, I obtained my Bachelor's Degree in Computer Science - Honors Program at University of Science, VNU-HCM, under the supervision of [Prof. Minh-Triet Tran](https://scholar.google.com/citations?user=lt2ATkkAAAAJ), [Prof. Tam Nguyen](https://scholar.google.com/citations?user=qIaGn7YAAAAJ), and [Dr. Trung-Nghia Le](https://sites.google.com/view/ltnghia).
 
