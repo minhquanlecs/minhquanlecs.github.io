@@ -26,15 +26,20 @@
     - title: Research Intern
       institution: Microsoft, Responsible and OpenAI Research, WA, USA
       year: Summer 2024
+      description:
+        - Advised by <a href="hhttps://g1910.github.io">Gaurav Mittal</a>, <a href="https://scholar.google.com/citations?user=DjfReA4AAAAJ&">Mei Chen</a>.
 
     - title: Research Assistant
       institution: VinUniversity, Hanoi, Vietnam
       year: Jan 2023-Jun 2023
+      description:
+        - Advised by <a href="https://huyhieupham.github.io">Dr. Hieu Pham</a>, <a href="https://scholar.google.com/citations?user=RIeAomMAAAAJ">Prof. Minh N. Do</a>.
 
     - title: Research Intern
-      institution: University of Illinois at Urbana-Champaign
+      institution: University of Illinois at Urbana-Champaign, IL, USA
       year: Oct 2022-Jan 2023
-
+      description:
+        - Advised by <a href="https://scholar.google.com/citations?user=RIeAomMAAAAJ">Prof. Minh N. Do</a>.
 - title: Honors and Awards
   type: time_table
   contents:
