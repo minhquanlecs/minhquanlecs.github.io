@@ -13,3 +13,7 @@
 "CG":
   color: "#f29105"
   url: https://www.sciencedirect.com/journal/computers-and-graphics
+
+"WACV":
+  color: "#dfcc00"
+  url: https://wacv2025.thecvf.com
