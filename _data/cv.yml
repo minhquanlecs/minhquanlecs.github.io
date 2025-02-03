@@ -25,15 +25,15 @@
   contents:
     - title: Research Intern
       institution: Microsoft, Responsible and OpenAI Research, WA, USA
-      year: May 2024-Jan 2025
+      year: May 2024-Sep 2025
       description:
         - Advised by <a href="https://g1910.github.io">Gaurav Mittal</a>, <a href="https://scholar.google.com/citations?user=DjfReA4AAAAJ&">Mei Chen</a>.
 
-    - title: Research Assistant
-      institution: VinUniversity, Hanoi, Vietnam
-      year: Jan 2023-Jun 2023
-      description:
-        - Advised by <a href="https://huyhieupham.github.io">Dr. Hieu Pham</a>, <a href="https://scholar.google.com/citations?user=RIeAomMAAAAJ">Prof. Minh N. Do</a>.
+    # - title: Research Assistant
+    #   institution: VinUniversity, Hanoi, Vietnam
+    #   year: Jan 2023-Jun 2023
+    #   description:
+    #     - Advised by <a href="https://huyhieupham.github.io">Dr. Hieu Pham</a>, <a href="https://scholar.google.com/citations?user=RIeAomMAAAAJ">Prof. Minh N. Do</a>.
 
     - title: Research Intern
       institution: University of Illinois at Urbana-Champaign, IL, USA
@@ -58,5 +58,5 @@
 - title: Professional Services
   type: list
   contents:
-    - <u>Reviewer:</u> CVPR (2024), ECCV, MMM (2022)
+    - <u>Reviewer:</u> CVPR (2024, 2025), WACV (2025), ECCV, MMM (2022)
     - <u>Lecturer:</u> VietAI (2021)

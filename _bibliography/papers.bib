@@ -1,5 +1,20 @@
 ---
 ---
+
+@inproceedings{le2025hummingbird,
+  title={Hummingbird: High Fidelity Image Generation via Multimodal Context Alignment},
+  author={Minh-Quan Le* and Gaurav Mittal* and Tianjian Meng and A S M Iftekhar and Vishwas
+    Suryanarayanan and Barun Patra and Dimitris Samaras and Mei Chen},
+  abbr={ICLR},
+  booktitle={The Thirteenth International Conference on Learning Representations},
+  year={2025},
+  url={https://openreview.net/forum?id=6kPBThI6ZJ},
+  selected={true},
+  preview={iclr25.png},
+  abstract={While diffusion models are powerful in generating high-quality, diverse synthetic data for object-centric tasks, existing methods struggle with scene-aware tasks such as Visual Question Answering (VQA) and Human-Object Interaction (HOI) Reasoning, where it is critical to preserve scene attributes in generated images consistent with a multimodal context, i.e.~a reference image with accompanying text guidance query. To address this, we introduce Hummingbird, the first diffusion-based image generator which, given a multimodal context, generates highly diverse images w.r.t. the reference image while ensuring high fidelity by accurately preserving scene attributes, such as object interactions and spatial relationships from the text guidance. Hummingbird employs a novel Multimodal Context Evaluator that simultaneously optimizes our formulated Global Semantic and Fine-grained Consistency Rewards to ensure generated images preserve the scene attributes of reference images in relation to the text guidance while maintaining diversity. As the first model to address the task of maintaining both diversity and fidelity given a multimodal context, we introduce a new benchmark formulation incorporating MME Perception and Bongard HOI datasets. Benchmark experiments show Hummingbird outperforms all existing methods by achieving superior fidelity while maintaining diversity, validating Hummingbird's potential as a robust multimodal context-aligned image generator in complex visual tasks.},
+  pdf={https://openreview.net/pdf?id=6kPBThI6ZJ},
+}
+
 @inproceedings{le2022inftybrush,
   title={$\infty$-Brush: Controllable Large Image Synthesis with Diffusion Models in Infinite Dimensions},
   author={Le*, Minh-Quan and Graikos*, Alexandros and Yellapragada, Srikar and Gupta, Rajarsi and Saltz, Joel and Samaras, Dimitris},
@@ -10,7 +25,7 @@
   selected={true},
   preview={eccv24.png},
   abstract={Synthesizing high-resolution images from intricate, domain-specific information remains a significant challenge in generative modeling, particularly for applications in large-image domains such as digital histopathology and remote sensing. Existing methods face critical limitations: conditional diffusion models in pixel or latent space cannot exceed the resolution on which they were trained without losing fidelity, and computational demands increase significantly for larger image sizes. Patch-based methods offer computational efficiency but fail to capture long-range spatial relationships due to their overreliance on local information. In this paper, we introduce a novel conditional diffusion model in infinite dimensions, $\infty$-Brush for controllable large image synthesis. We propose a cross-attention neural operator to enable conditioning in function space. Our model overcomes the constraints of traditional finite-dimensional diffusion models and patch-based methods, offering scalability and superior capability in preserving global image structures while maintaining fine details. To our best knowledge, $\infty$-Brush is the first conditional diffusion model in function space, that can controllably synthesize images at arbitrary resolutions of up to 4096 x 4096 pixels. The code is available at https://github.com/cvlab-stonybrook/infinity-brush.},
-  pdf={eccv24.pdf},
+  pdf={https://link.springer.com/chapter/10.1007/978-3-031-73411-3_22},
 }
 
 @inproceedings{le2024maskdiff,

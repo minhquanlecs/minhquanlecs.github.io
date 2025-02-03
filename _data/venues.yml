@@ -17,3 +17,7 @@
 "WACV":
   color: "#dfcc00"
   url: https://wacv2025.thecvf.com
+
+"ICLR":
+  color: "#8600df"
+  url: https://iclr.cc
