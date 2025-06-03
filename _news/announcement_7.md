@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-1 paper CamoFA has been accepted to WACV 2025!
+1 paper **CamoFA** has been accepted to WACV 2025!

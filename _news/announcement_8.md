@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper Hummingbird done during my internship at Microsoft has been accepted to ICLR 2025!
+Our paper **Hummingbird** done during my internship at Microsoft has been accepted to ICLR 2025!
