@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A paper done during my undergraduate studies has been accepted in Neural Computing and Applications.
+A paper done during my undergrad has been accepted in Neural Computing and Applications.
