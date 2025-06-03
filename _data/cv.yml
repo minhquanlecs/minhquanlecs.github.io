@@ -29,6 +29,13 @@
       description:
         - Advised by <a href="https://g1910.github.io">Gaurav Mittal</a>, <a href="https://scholar.google.com/citations?user=DjfReA4AAAAJ&">Mei Chen</a>.
 
+    - title: Visiting Student
+      institution: Computer Science Laboratory (LIX) of École Polytechnique, Paris, France.
+      year: Mar 2025-Jun 2025
+      description:
+        - Advised by <a href="https://vicky.kalogeiton.info">Prof. Vicky Kalogeiton</a>.
+
+
     # - title: Research Assistant
     #   institution: VinUniversity, Hanoi, Vietnam
     #   year: Jan 2023-Jun 2023
@@ -43,6 +50,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2025
+      items:
+        - The DATAIA Fellowship
     - year: 2021
       items:
         - The Panasonic Scholarship
@@ -58,5 +68,5 @@
 - title: Professional Services
   type: list
   contents:
-    - <u>Reviewer:</u> CVPR (2024, 2025), WACV (2025), ECCV, MMM (2022)
+    - <u>Reviewer:</u> CVPR (2024, 2025), NeurIPS (2025), ICCV (2025), WACV (2025), ECCV, MMM (2022)
     - <u>Lecturer:</u> VietAI (2021)
