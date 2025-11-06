@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I start my research internship at Microsoft, ROAR.
+I start my research internship at **Microsoft**, ROAR.

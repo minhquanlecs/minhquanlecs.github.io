@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I join Google as a Student Researcher.
+I join **Google** as a Student Researcher.
