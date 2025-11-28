@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: portrait.png
+  image: portrait_v1.JPG
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Computer Vision Lab</p>
