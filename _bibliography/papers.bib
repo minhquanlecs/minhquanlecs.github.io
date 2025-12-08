@@ -1,6 +1,23 @@
 ---
 ---
 
+@misc{le2025newtonrewards,
+  title={What about gravity in video generation? Post-Training Newton's Laws with Verifiable Rewards}, 
+  author={Minh-Quan Le and Yuanzhi Zhu and Vicky Kalogeiton and Dimitris Samaras},
+  year={2025},
+  eprint={2512.00425},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2512.00425},
+  selected_arxiv={true},
+  abbr={arXiv},
+  code={https://github.com/cvlab-stonybrook/NewtonRewards},
+  website={https://cvlab-stonybrook.github.io/NewtonRewards},
+  preview={newtonrewards.jpg},
+  abstract={Recent video diffusion models can synthesize visually compelling clips, yet often violate basic physical laws-objects float, accelerations drift, and collisions behave inconsistently-revealing a persistent gap between visual realism and physical realism. We propose 𝙽𝚎𝚠𝚝𝚘𝚗𝚁𝚎𝚠𝚊𝚛𝚍𝚜, the first physics-grounded post-training framework for video generation based on verifiable rewards. Instead of relying on human or VLM feedback, 𝙽𝚎𝚠𝚝𝚘𝚗𝚁𝚎𝚠𝚊𝚛𝚍𝚜 extracts measurable proxies from generated videos using frozen utility models: optical flow serves as a proxy for velocity, while high-level appearance features serve as a proxy for mass. These proxies enable explicit enforcement of Newtonian structure through two complementary rewards: a Newtonian kinematic constraint enforcing constant-acceleration dynamics, and a mass conservation reward preventing trivial, degenerate solutions. We evaluate 𝙽𝚎𝚠𝚝𝚘𝚗𝚁𝚎𝚠𝚊𝚛𝚍𝚜 on five Newtonian Motion Primitives (free fall, horizontal/parabolic throw, and ramp sliding down/up) using our newly constructed large-scale benchmark, 𝙽𝚎𝚠𝚝𝚘𝚗𝙱𝚎𝚗𝚌𝚑-𝟼𝟶𝙺. Across all primitives in visual and physics metrics, 𝙽𝚎𝚠𝚝𝚘𝚗𝚁𝚎𝚠𝚊𝚛𝚍𝚜 consistently improves physical plausibility, motion smoothness, and temporal coherence over prior post-training methods. It further maintains strong performance under out-of-distribution shifts in height, speed, and friction. Our results show that physics-grounded verifiable rewards offer a scalable path toward physics-aware video generation.},
+  pdf={https://arxiv.org/pdf/2512.00425},
+}
+
 @inproceedings{le2025hummingbird,
   title={Hummingbird: High Fidelity Image Generation via Multimodal Context Alignment},
   author={Minh-Quan Le* and Gaurav Mittal* and Tianjian Meng and A S M Iftekhar and Vishwas
