@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I'm joining Computer Science Laboratory (LIX) of École Polytechnique, Paris, France as a visiting student.
+I'm joining Computer Science Laboratory (LIX) of École Polytechnique, Paris as a visiting student.
