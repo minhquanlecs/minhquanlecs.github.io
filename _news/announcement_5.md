@@ -6,7 +6,7 @@ related_posts: false
 ---
 
 I start my research internship at <b>
-  <span style="display:inline-flex; align-items:baseline; gap:6px; position:relative; top:2px;">
+  <span style="display:inline-flex; align-items:baseline; gap:6px; position:relative; top:1px;">
     <!-- Microsoft logo (4 squares) -->
     <svg width="14" height="14" viewBox="0 0 24 24" aria-label="Microsoft logo" role="img"
          style="display:inline-block; vertical-align:baseline;">
@@ -16,7 +16,7 @@ I start my research internship at <b>
       <rect x="13" y="13" width="10" height="10" fill="#FFB900"></rect>
     </svg>
   </span>
-    <span style="line-height:1;">
+    <span>
         <span style="color:#737373;">Microsoft</span>
     </span>
 </b>, ROAR.
