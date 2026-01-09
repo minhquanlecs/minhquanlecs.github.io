@@ -16,7 +16,4 @@ I start my research internship at <b>
       <rect x="13" y="13" width="10" height="10" fill="#FFB900"></rect>
     </svg>
   </span>
-    <span>
-        <span style="color:#737373;">Microsoft</span>
-    </span>
-</b>, ROAR.
+    <span><span style="color:#737373;">Microsoft</span></span></b>, ROAR.
