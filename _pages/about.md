@@ -20,6 +20,6 @@ social: true # includes social icons at the bottom of the page
 
 I am currently a third-year Ph.D. student in Computer Science at [Stony Brook University, NY, USA](https://www.stonybrook.edu), advised by [Prof. Dimitris Samaras](https://scholar.google.com/citations?user=BxbKTYkAAAAJ).
 
-Before joining SBU, I obtained my Bachelor's Degree in Computer Science - Honors Program at University of Science, Vietnam National University - HCMC, under the supervision of [Prof. Minh-Triet Tran](https://scholar.google.com/citations?user=lt2ATkkAAAAJ), [Prof. Tam Nguyen](https://scholar.google.com/citations?user=qIaGn7YAAAAJ), and [Dr. Trung-Nghia Le](https://sites.google.com/view/ltnghia).
+Before joining SBU, I obtained my Bachelor's Degree in Computer Science - Honors Program at University of Science, Vietnam National University - HCMC, under the supervision of [Prof. Minh-Triet Tran](https://scholar.google.com/citations?user=lt2ATkkAAAAJ), [Prof. Tam Nguyen](https://scholar.google.com/citations?user=qIaGn7YAAAAJ), and [Dr. Trung-Nghia Le](https://scholar.google.com/citations?user=n8ZQzx8AAAAJ).
 
 My research interests lie in Computer Vision and Machine Learning with focus on post-training methods in visual generative models and vision-language models.
