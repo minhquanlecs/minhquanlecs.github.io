@@ -1,6 +1,5 @@
 ---
 ---
-
 @misc{le2025newtonrewards,
   title={What about gravity in video generation? Post-Training Newton's Laws with Verifiable Rewards}, 
   author={Minh-Quan Le and Yuanzhi Zhu and Vicky Kalogeiton and Dimitris Samaras},
@@ -17,6 +16,22 @@
   abstract={Recent video diffusion models can synthesize visually compelling clips, yet often violate basic physical laws-objects float, accelerations drift, and collisions behave inconsistently-revealing a persistent gap between visual realism and physical realism. We propose 𝙽𝚎𝚠𝚝𝚘𝚗𝚁𝚎𝚠𝚊𝚛𝚍𝚜, the first physics-grounded post-training framework for video generation based on verifiable rewards. Instead of relying on human or VLM feedback, 𝙽𝚎𝚠𝚝𝚘𝚗𝚁𝚎𝚠𝚊𝚛𝚍𝚜 extracts measurable proxies from generated videos using frozen utility models: optical flow serves as a proxy for velocity, while high-level appearance features serve as a proxy for mass. These proxies enable explicit enforcement of Newtonian structure through two complementary rewards: a Newtonian kinematic constraint enforcing constant-acceleration dynamics, and a mass conservation reward preventing trivial, degenerate solutions. We evaluate 𝙽𝚎𝚠𝚝𝚘𝚗𝚁𝚎𝚠𝚊𝚛𝚍𝚜 on five Newtonian Motion Primitives (free fall, horizontal/parabolic throw, and ramp sliding down/up) using our newly constructed large-scale benchmark, 𝙽𝚎𝚠𝚝𝚘𝚗𝙱𝚎𝚗𝚌𝚑-𝟼𝟶𝙺. Across all primitives in visual and physics metrics, 𝙽𝚎𝚠𝚝𝚘𝚗𝚁𝚎𝚠𝚊𝚛𝚍𝚜 consistently improves physical plausibility, motion smoothness, and temporal coherence over prior post-training methods. It further maintains strong performance under out-of-distribution shifts in height, speed, and friction. Our results show that physics-grounded verifiable rewards offer a scalable path toward physics-aware video generation.},
   pdf={https://arxiv.org/pdf/2512.00425},
 }
+
+@misc{le2026piscesannotationfreetexttovideoposttraining,
+  title={PISCES: Annotation-free Text-to-Video Post-Training via Optimal Transport-Aligned Rewards}, 
+  author={Minh-Quan Le and Gaurav Mittal and Cheng Zhao and David Gu and Dimitris Samaras and Mei Chen},
+  year={2026},
+  eprint={2602.01624},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2602.01624}, 
+  selected_arxiv={true},
+  abbr={arXiv},
+  preview={pisces.jpg},
+  abstract={Text-to-video (T2V) generation aims to synthesize videos with high visual quality and temporal consistency that are semantically aligned with input text. Reward-based post-training has emerged as a promising direction to improve the quality and semantic alignment of generated videos. However, recent methods either rely on large-scale human preference annotations or operate on misaligned embeddings from pre-trained vision-language models, leading to limited scalability or suboptimal supervision. We present 𝙿𝙸𝚂𝙲𝙴𝚂, an annotation-free post-training algorithm that addresses these limitations via a novel Dual Optimal Transport (OT)-aligned Rewards module. To align reward signals with human judgment, 𝙿𝙸𝚂𝙲𝙴𝚂 uses OT to bridge text and video embeddings at both distributional and discrete token levels, enabling reward supervision to fulfill two objectives: (i) a Distributional OT-aligned Quality Reward that captures overall visual quality and temporal coherence; and (ii) a Discrete Token-level OT-aligned Semantic Reward that enforces semantic, spatio-temporal correspondence between text and video tokens. To our knowledge, 𝙿𝙸𝚂𝙲𝙴𝚂 is the first to improve annotation-free reward supervision in generative post-training through the lens of OT. Experiments on both short- and long-video generation show that 𝙿𝙸𝚂𝙲𝙴𝚂 outperforms both annotation-based and annotation-free methods on VBench across Quality and Semantic scores, with human preference studies further validating its effectiveness. We show that the Dual OT-aligned Rewards module is compatible with multiple optimization paradigms, including direct backpropagation and reinforcement learning fine-tuning.}
+  pdf={https://arxiv.org/pdf/2602.01624},
+}
+
 
 @inproceedings{le2025hummingbird,
   title={Hummingbird: High Fidelity Image Generation via Multimodal Context Alignment},
