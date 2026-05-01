@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-My second paper (**PISCES**) done during my internship at Microsoft has been accepted to ICML 2026.
+My 2nd paper with Microsoft, PISCES, done during my internship, has been accepted to ICML 2026.
