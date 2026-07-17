@@ -1,5 +1,23 @@
 ---
 ---
+@misc{le2026concurrent,
+  title={Concurrent Image Understanding and Generation: Self-Correcting Coupled Markov Jump Processes}, 
+  author={Minh-Quan Le and Armand Comas and Alexandros Lattas and Stylianos Moschoglou and Pedro Vélez and Amit Raj and Aaron Germuth and Thabo Beeler and Dimitris Samaras and Di Qiu},
+  year={2026},
+  eprint={2607.13188},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  url={https://arxiv.org/abs/2607.13188}, 
+  selected_arxiv={true},
+  abbr={arXiv},
+  code={hhttps://github.com/coupled-jump},
+  website={https://coupled-jump.github.io},
+  preview={co2jump.jpg},
+  abstract={Human cognition does not separate understanding and generation. A teacher at a whiteboard speaks and draws together, each modality reshapes the other. In this paper, we bring this coupled loop to artificial systems. Masked Diffusion Models (MDMs) are ideally suited to this task, yet existing samplers either decode text and image interleavedly or independently update them in parallel branches that share only previous-step history, but not the other modality's latest decisions within the same step; combined with MDMs' inability to remask, cross-modal contradictions are neither detected nor repaired. We introduce Self-Correcting Coupled Markov Jump Processes (SC-CMJP), a framework in which one modality's transition rates are functionals of the other modality's confidence score, as weighted by cross-modal attention. Furthermore, a remasking jump retracts commitments the moment cross-modal evidence turns against them. In conjunction with SC-CMJP, we introduce 𝙲𝙾𝟸𝙹𝚞𝚖𝚙 (Self-COrrecting COupled Jump), a novel training-free single-pass sampler for joint multimodal geneneration. For training and evaluation purposes, we have created and will release three large-scale joint multimodal generation corpora: JEdit-1M, JMaze-200K, JNono-200K, with matching in- and out-of-distribution benchmarks. 𝙲𝙾𝟸𝙹𝚞𝚖𝚙 achieves best joint performance for image understanding and editing as well as visual reasoning (maze and nonogram solving). The performance of the sampler scales monotonically with the number of denoising steps, evidence that the benefits of cross-modal coupling compound across the trajectory.},
+  pdf={https://arxiv.org/pdf/2607.13188},
+}
+
+
 @misc{le2025newtonrewards,
   title={What about gravity in video generation? Post-Training Newton's Laws with Verifiable Rewards}, 
   author={Minh-Quan Le and Yuanzhi Zhu and Vicky Kalogeiton and Dimitris Samaras},
@@ -16,6 +34,8 @@
   abstract={Recent video diffusion models can synthesize visually compelling clips, yet often violate basic physical laws-objects float, accelerations drift, and collisions behave inconsistently-revealing a persistent gap between visual realism and physical realism. We propose 𝙽𝚎𝚠𝚝𝚘𝚗𝚁𝚎𝚠𝚊𝚛𝚍𝚜, the first physics-grounded post-training framework for video generation based on verifiable rewards. Instead of relying on human or VLM feedback, 𝙽𝚎𝚠𝚝𝚘𝚗𝚁𝚎𝚠𝚊𝚛𝚍𝚜 extracts measurable proxies from generated videos using frozen utility models: optical flow serves as a proxy for velocity, while high-level appearance features serve as a proxy for mass. These proxies enable explicit enforcement of Newtonian structure through two complementary rewards: a Newtonian kinematic constraint enforcing constant-acceleration dynamics, and a mass conservation reward preventing trivial, degenerate solutions. We evaluate 𝙽𝚎𝚠𝚝𝚘𝚗𝚁𝚎𝚠𝚊𝚛𝚍𝚜 on five Newtonian Motion Primitives (free fall, horizontal/parabolic throw, and ramp sliding down/up) using our newly constructed large-scale benchmark, 𝙽𝚎𝚠𝚝𝚘𝚗𝙱𝚎𝚗𝚌𝚑-𝟼𝟶𝙺. Across all primitives in visual and physics metrics, 𝙽𝚎𝚠𝚝𝚘𝚗𝚁𝚎𝚠𝚊𝚛𝚍𝚜 consistently improves physical plausibility, motion smoothness, and temporal coherence over prior post-training methods. It further maintains strong performance under out-of-distribution shifts in height, speed, and friction. Our results show that physics-grounded verifiable rewards offer a scalable path toward physics-aware video generation.},
   pdf={https://arxiv.org/pdf/2512.00425},
 }
+
+
 
 @inproceedings{le2026pisces,
   title={PISCES: Annotation-free Text-to-Video Post-Training via Optimal Transport-Aligned Rewards},
