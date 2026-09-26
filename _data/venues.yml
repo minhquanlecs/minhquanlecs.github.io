@@ -15,7 +15,7 @@
   url: https://www.sciencedirect.com/journal/computers-and-graphics
 
 "WACV":
-  color: "#df0095"
+  color: "#df008d"
   url: https://wacv2025.thecvf.com
 
 "ICLR":
@@ -23,11 +23,11 @@
   url: https://iclr.cc
 
 "ICML":
-  color: "#bdbd00"
+  color: "#df7000"
   url: https://icml.cc
 
 "NeurIPS":
-  color: "#dfd800"
+  color: "#dfd000"
   url: https://neurips.cc
 
 "arXiv":
