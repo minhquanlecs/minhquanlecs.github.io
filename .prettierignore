@@ -7,5 +7,7 @@ assets/js/distillpub/template.v2.js
 assets/js/search/*.js
 assets/plotly/demo.html
 lighthouse_results/**
+# Preserve the upstream font and library files and their integrity hashes.
+assets/libs/**
 _posts/2015-10-20-math.md
 _sass/font-awesome/*.scss
