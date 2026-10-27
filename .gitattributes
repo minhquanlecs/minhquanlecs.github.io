@@ -1,0 +1,2 @@
+# Preserve CDN library bytes and integrity hashes on every checkout platform.
+assets/libs/** -text

@@ -89,7 +89,7 @@ jobs:
           pip3 install --upgrade jupyter
           export JEKYLL_ENV=production
           bundle exec jekyll build
-      - name: Verify responsive image output
+      - name: Verify responsive images and local libraries
         run: python3 bin/check-responsive-images.py _site
       - name: Purge unused CSS 🧹
         run: |
