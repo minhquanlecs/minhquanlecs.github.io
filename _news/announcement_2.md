@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-My first A* paper **[MaskDiff](https://minhquanlecs.github.io/maskdiff/)** has been accepted to AAAI 2024 (Oral).
+My first A* paper **MaskDiff** has been accepted to AAAI 2024 (Oral).
