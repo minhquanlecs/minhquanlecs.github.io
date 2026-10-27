@@ -1,4 +1,6 @@
-{% assign img_path = include.path | remove: '.jpg' | remove: '.jpeg' | remove: '.png' | remove: '.tiff' | remove: '.gif' %}
+{% assign img_path = include.path | regex_replace: '\.[^.]+$', '' %}
+{% assign dimensions = include.path | image_dimensions %}
+{% assign img_extension = include.path | split: '.' | last | downcase | prepend: '.' %}
 
 <figure
   {% if include.slot %}
@@ -11,7 +13,7 @@
       See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
-    {% if site.imagemagick.enabled %}
+    {% if site.imagemagick.enabled and dimensions.width and site.imagemagick.input_formats contains img_extension %}
       <source
         class="responsive-img-srcset"
         srcset="{% for i in site.imagemagick.widths %}{{ img_path | relative_url }}-{{ i }}.webp {{i}}w,{% endfor %}"
@@ -30,16 +32,24 @@
       {% endif %}
       {% if include.width %}
         width="{{ include.width }}"
+      {% elsif dimensions.width and include.height == null %}
+        width="{{ dimensions.width }}"
       {% else %}
         width="100%"
       {% endif %}
       {% if include.height %}
         height="{{ include.height }}"
+      {% elsif dimensions.height and include.width == null %}
+        height="{{ dimensions.height }}"
       {% else %}
         height="auto"
       {% endif %}
-      {% if include['min-width'] or include['min-height'] or include['max-width'] or include['max-height'] %}
+      {% if dimensions.width or include['min-width'] or include['min-height'] or include['max-width'] or include['max-height'] %}
         style="
+          {% if dimensions.width and include.width == nil and include.height == nil %}
+            width: 100%;
+            height: auto;
+          {% endif %}
           {% if include['min-width'] %}
             min-width: {{ include.min-width }};
           {% endif %}
@@ -62,13 +72,18 @@
       {% endif %}
       {% if include.zoomable %}
         data-zoomable
+        data-zoom-src="{{ include.path | relative_url }}"
+      {% endif %}
+      decoding="async"
+      {% if include.fetchpriority %}
+        fetchpriority="{{ include.fetchpriority }}"
       {% endif %}
       {% if include.loading %}
         loading="{{ include.loading }}"
       {% elsif site.lazy_loading_images %}
         loading="lazy"
       {% endif %}
-      onerror="this.onerror=null; $('.responsive-img-srcset').remove();"
+      onerror="this.onerror=null; this.closest('picture').querySelectorAll('source').forEach(function(source) { source.remove(); });"
     >
   </picture>
 

@@ -67,6 +67,11 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
+      - name: Install responsive image tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends -y imagemagick
+          convert -list format | grep 'WEBP'
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -84,6 +89,8 @@ jobs:
           pip3 install --upgrade jupyter
           export JEKYLL_ENV=production
           bundle exec jekyll build
+      - name: Verify responsive image output
+        run: python3 bin/check-responsive-images.py _site
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss
